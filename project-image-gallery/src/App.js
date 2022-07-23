@@ -17,7 +17,7 @@ function App() {
         setIsLoadind(false);
       })
       .catch((error) => console.log(error));
-    // Pour rappeler à nouveau la fetch request utilisation du useState term
+    // Utilisation du "useState term" pour nouveau rappel de "fetch request"
   }, [term]);
 
   return (
